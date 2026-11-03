@@ -1,4 +1,4 @@
-# Singular Value Decomposition: Math Theory and Image Compression Example
+# Optimal Low-Rank Matrix Approximation with the SVD: Theory and Image Compression Example
 
 The singular value decomposition (SVD) factorizes any matrix into two orthogonal matrices of singular vectors and a diagonal matrix of non-negative singular values, ordered from largest to smallest. Truncating this factorization gives the best low-rank approximation of the matrix in the Frobenius norm, a result known as the Eckart–Young theorem.
 
@@ -46,8 +46,6 @@ If you use Anaconda, these packages are already installed.
    A browser window opens with the files in the folder.
 3. Click `svd-article.ipynb` to open it.
 4. Run all cells from top to bottom (**Kernel → Restart & Run All**).
-
-Start Jupyter from the repository folder, because the notebook reads the image from the relative path `data/cat.jpg`. Computing the SVD of a large image can take some time and memory.
 
 Other ways to open the notebook:
 - **JupyterLab:** run `jupyter lab` instead (after `pip install jupyterlab`).
